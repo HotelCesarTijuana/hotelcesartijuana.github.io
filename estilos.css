@@ -1,0 +1,173 @@
+/*codigo para fondo, img y/o color*/
+body{
+    background: url("nubes.jpg");
+}
+/*codigo formato de texto*/
+h1{
+    size: 25px;
+	font-style: Times New Roman;
+	text-align: center;
+	color: #ECF0F1;
+}
+/*codigo formato de inf del creador*/
+p{
+	font-size: 15px;
+	font-style: Times New Roman;
+	text-align: center;
+	color: #ECF0F1;
+	
+}
+/*codigo para formato de tabla*/
+table{
+	border-color: #7D94A5;
+	font-size: 12px;
+	font-style: Times New Roman;
+	text-align: center;
+	border: 2;
+	width: 90%;
+}
+/*formato de recuadros de tabla*/
+td{
+	background-color: #A2BACA;
+	text-align: center;
+}
+/*formato color de tabla*/
+th{
+	background-color: white;
+}
+/*formato de tabla de botones de direccion*/
+.sin{
+	border-style: transparent;
+	border:0;
+	background-color: transparent;
+}
+/*tabla de contactos*/
+.con{
+	border: 2;
+	border-color: black;
+	width: 30%;
+	height: 20%;
+}
+/*tamaño de botones */
+.b{
+	width: 100;	
+	height: 100;
+}
+.a{
+	width: 300px;
+	height: 150px;
+}
+/*tamaño de logo*/
+.j{
+	width: 500;
+	height: 300;
+}
+/*tamaño de imagenes en historia*/
+.g{
+	width: 300;
+	height: 150;
+}
+/*tamaño de imagenes en tabla de servicios*/
+.imagen{
+	width: 300;
+	height: 250;
+}
+.div1{
+	background: #E1C99D;
+	border-radius: 10px;
+	margin: auto;
+}
+.div2{
+	background: #747A7E;
+	border-radius: 10px;
+	margin: auto;
+}
+.div3{
+	background: #D4AC61;
+	border-radius: 10px;
+	margin: auto;
+}
+.div4{
+	background: #4D5252;
+	border-radius: 10px;
+	margin: auto;
+}
+.caja{
+	height: 400px;
+	width: 300px;
+	border: 0px solid white;
+	background: white;
+	margin: 20px;
+	color: black;
+	text-align: center;
+	font-family: "lato", sans-serif;
+	display: inline-block;
+}
+.caja:hover{
+			/* Colocar sombra al div*/
+		     /* x y Radio color*/ 
+	box-shadow: 0 0 20px white;
+	/* Cambia el tamaño de escala del div*/
+	transform: scale(1.3);
+}
+.caja-texto{
+	padding-bottom: 5px;
+	padding-top: 2px;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+.texto-adicional{
+	padding-top: 5px;
+	font-size: 15px;
+}
+@font-face{
+	font-family: "mifuente";
+	src: url(OldNewspaperTypes.ttf);
+}
+#fuente-old{
+	font-family: "mifuente";
+	color: black;
+}
+#fuente-google{
+	font-family: 'Merriweather', serif;
+	color: white;
+}
+.navegacion{
+	display: flex;
+	height: 100px;
+}
+.navegacion-item{
+	flex: 1;
+	
+	color: silver;
+	font-weight: bold;
+	font-size: 15px;
+	display: flex;
+	transition: flex-grow 0.2s;
+	justify-content: center;
+	align-items: center;
+}
+.navegacion-item:hover{
+	flex-grow: 10;
+}
+.navegacion-item:hover .navegacion-titulo{
+	transform: rotate(0);
+}
+.navegacion-item:nth-child(1){
+	background:#FAE6B7;
+}
+.navegacion-item:nth-child(2){
+	background:#A9AEAF;
+}
+.navegacion-item:nth-child(3){
+	background:#FAE6B7;
+}
+.navegacion-item:nth-child(4){
+	background:#A9AEAF;
+}
+.navegacion-titulo{
+	margin: 0;
+	transform: rotate(-90deg);
+	transition: transform 0.2s 0.2s
+}
